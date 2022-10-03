@@ -8,6 +8,7 @@ setTimeout(()=>{
    input_text.innerHTML=""
 } ,1000) 
 
+// get data from api and show on page 
 
 async function Get_reandom_qoute(){
    
@@ -22,6 +23,8 @@ async function Get_reandom_qoute(){
       }
 Get_reandom_qoute()
     
+// oninput  event compare input word and do decisions 
+
 input_text.addEventListener("input",() => {
 
    let input_text_value =input_text.value.split('')

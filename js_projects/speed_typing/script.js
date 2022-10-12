@@ -9,12 +9,9 @@ setTimeout(()=>{
 } ,1000) 
 // timer code 
 let time=document.querySelector(".timer")
-console.log(time.innerText)
-
 
 setInterval(() => {
   time.innerText++
-  console.log(time.innerText)
 }, 1000);
 // get data from api and show on page 
 

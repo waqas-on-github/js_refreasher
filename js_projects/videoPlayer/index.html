@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>video_player</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="video_container">
+        <div class="controls_container">
+            <div class="timeline_container"></div>
+            <div class="controls">
+               <button class="play_btn">   <svg class="play-icon" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+              </svg></button> 
+            </div>
+        </div>
+        <video src="/assets/Video.mp4" ></video>
+    </div>
 </body>
 </html>

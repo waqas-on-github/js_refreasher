@@ -1,0 +1,43 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    z-index: 0;
+}
+.video_container{
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    border: 2px solid rgb(1, 134, 101);
+}
+video{
+    width: 85%;
+    margin: 10px;
+    margin-top: 100px;
+    border: 2px solid rgb(255, 200, 0);
+
+}
+
+.play_btn{
+    color: white;
+    font-size: 1.2rem;
+    background-color: aqua;
+} 
+.controls{
+    width: 15%;
+    display: flex; 
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.controls_container{
+    width :85%;
+    position: absolute;
+    bottom: 30px;
+
+}
